@@ -1,6 +1,7 @@
 # The Earth Information Jukebox
 # Live Link:
-(Earth-jukebox)[https://earth-jukebox-final.vercel.app/]
+[https://earth-jukebox-final.vercel.app/]
+
 An accessible browser experience for NASA Earth visualizations. The current PRD-aligned collection is Ocean currents and temperature (SVS 3912), ISS lightning (SVS 5011), and GEOS aerosols (SVS 5572). It prepares small official previews locally and generates deterministic Web Audio from rendered-pixel features.
 
 The current sound is **image-derived sonification**, not calibrated scientific measurement sonification. Preview color and brightness do not recover underlying numerical fields, events, currents, or aerosol concentrations. This limitation and each mapping are shown in the application.
