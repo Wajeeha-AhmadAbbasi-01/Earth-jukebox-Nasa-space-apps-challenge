@@ -1,0 +1,24 @@
+{
+  "schema_version": "provenance-manifest.v1",
+  "dataset_id": "aerosols-5669",
+  "acquisition": {
+    "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005600/a005669/Aerosols_2025-08-19T20_00_00_1920x1080.png",
+    "local_path": "earth-jukebox/data/raw/aerosols-5669/Aerosols_2025-08-19T20_00_00_1920x1080.png",
+    "sha256": "0c6a8f6c46fb52a2f9a636bbd804fc6e5e23454dcb2f0d3fe04c653c772e8a7a",
+    "bytes": 2768951,
+    "accessed_at": "2026-11-14",
+    "status": "acquired_and_checksum_verified"
+  },
+  "processing": {
+    "script": "earth-jukebox/scripts/extract_visual_proxy_features.py",
+    "output": "data\\processed\\aerosols-5669\\proxy-feature-timeline.json",
+    "feature_status": "image_derived_proxy_only"
+  },
+  "attribution": "GEOS/GEOS-FP model output visualization. No numerical aerosol field is exposed by the SVS page/API; color categories are not concentration units.",
+  "limitations": [
+    "Features are derived from rendered preview pixels only.",
+    "Color classes are display-color proxies, not scientific categories or concentration units.",
+    "The playback position is a spatial scan of one still/preview, not source chronology.",
+    "No event counts, physical units, calibrated radiance, or numerical model values are inferred."
+  ]
+}

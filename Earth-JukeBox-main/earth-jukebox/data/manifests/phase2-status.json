@@ -1,0 +1,37 @@
+{
+  "manifest_schema_version": "phase2-resource-manifest.v1",
+  "generated_at": "2026-11-15",
+  "pipeline_status": "prd_aligned_controlled_preview_proxy",
+  "datasets": {
+    "ocean-3912": {
+      "access_status": "tested_successfully_and_acquired",
+      "source_verification_status": "metadata_verified_source_unverified",
+      "downloaded": true,
+      "processed": true,
+      "asset_manifest": "data/manifests/ocean-3912-provenance.json",
+      "proxy_timeline": "data/processed/ocean-3912/proxy-feature-timeline.json"
+    },
+    "lightning-5011": {
+      "access_status": "tested_successfully_and_acquired",
+      "source_verification_status": "metadata_verified_source_unverified",
+      "downloaded": true,
+      "processed": true,
+      "asset_manifest": "data/manifests/lightning-5011-provenance.json",
+      "proxy_timeline": "data/processed/lightning-5011/proxy-feature-timeline.json"
+    },
+    "aerosols-5572": {
+      "access_status": "tested_successfully_and_acquired",
+      "source_verification_status": "metadata_verified_source_unverified",
+      "downloaded": true,
+      "processed": true,
+      "asset_manifest": "data/manifests/aerosols-5572-provenance.json",
+      "proxy_timeline": "data/processed/aerosols-5572/proxy-feature-timeline.json"
+    }
+  },
+  "non_claims": [
+    "No NASA numerical science dataset is packaged or declared fully verified.",
+    "Feature values are extracted from rendered preview pixels and are not scientific variables.",
+    "Playback index is a spatial scan and makes no source-time claim.",
+    "No large NASA movies or complete frame sets were downloaded."
+  ]
+}

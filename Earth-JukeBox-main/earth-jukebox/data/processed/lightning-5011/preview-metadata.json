@@ -1,0 +1,22 @@
+{
+  "schema_version": "phase2-preprocessed-preview.v1",
+  "dataset_id": "lightning-5011",
+  "source_url": "https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005011/iss_lightning_preview.jpg",
+  "source_status": "metadata_verified_source_unverified",
+  "source_vs_proxy": "image_derived_proxy",
+  "scientific_variables": [
+    "latitude",
+    "longitude",
+    "detection time"
+  ],
+  "scientific_units": [],
+  "scientific_verification": "not_verified_by_preview_processing",
+  "input": {
+    "bytes": 266956,
+    "sha256": "34814a64183e515909f414051c17d30209ea1e30cd941c2e7c8f50ff1e884580",
+    "format": "image/jpeg",
+    "width": 1024,
+    "height": 576
+  },
+  "feature_extraction": "none; provenance and image envelope only"
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "provenance-manifest.v1",
+  "dataset_id": "nightlights-5313",
+  "acquisition": {
+    "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005300/a005313/nightlights_flat_series_and_change_wZooms_13_EIC.02599_print.jpg",
+    "local_path": "earth-jukebox/data/raw/nightlights-5313/nightlights_flat_series_and_change_wZooms_13_EIC.02599_print.jpg",
+    "sha256": "6e3e92eae49ca666f2f694efaf17f342bf10c113ead2118f959e48d26e2581bc",
+    "bytes": 63503,
+    "accessed_at": "2026-11-14",
+    "status": "acquired_and_checksum_verified"
+  },
+  "processing": {
+    "script": "earth-jukebox/scripts/extract_nightlights_features.py",
+    "output": "data\\processed\\nightlights-5313\\proxy-feature-timeline.json",
+    "feature_status": "image_derived_proxy_only"
+  },
+  "attribution": "NASA/NOAA Suomi NPP VIIRS provenance as credited by NASA SVS 5313; NASA SVS preview asset.",
+  "limitations": [
+    "Rendered brightness is a proxy derived from preview pixels.",
+    "Color classes are deterministic display-color proxies.",
+    "No calibrated radiance, physical units, or numerical Black Marble values are inferred.",
+    "The playback timeline is a spatial scan of one composite render, not annual source time."
+  ]
+}

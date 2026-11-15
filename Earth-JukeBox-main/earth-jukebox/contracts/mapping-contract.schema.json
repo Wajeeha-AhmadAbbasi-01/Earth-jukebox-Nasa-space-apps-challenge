@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://earth-jukebox.invalid/contracts/mapping-contract.v1.schema.json",
+  "title": "Dataset-agnostic feature mapping contract",
+  "description": "A deterministic mapping declaration. It does not assert that a source feature is scientifically verified.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "mapping_id",
+    "version",
+    "input",
+    "output",
+    "missing_value_policy"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "mapping-contract.v1"
+    },
+    "mapping_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9._-]*$"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^v[0-9]+$"
+    },
+    "input": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "feature_name",
+        "source_min",
+        "source_max",
+        "unit"
+      ],
+      "properties": {
+        "feature_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_min": {
+          "type": "number"
+        },
+        "source_max": {
+          "type": "number"
+        },
+        "unit": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "output": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "parameter_name",
+        "target_min",
+        "target_max"
+      ],
+      "properties": {
+        "parameter_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "target_min": {
+          "type": "number"
+        },
+        "target_max": {
+          "type": "number"
+        }
+      }
+    },
+    "transform": {
+      "enum": [
+        "linear"
+      ]
+    },
+    "clamp": {
+      "type": "boolean"
+    },
+    "missing_value_policy": {
+      "enum": [
+        "preserve_missing",
+        "reject_missing"
+      ]
+    }
+  }
+}

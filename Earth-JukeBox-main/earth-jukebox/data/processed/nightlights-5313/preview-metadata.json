@@ -1,0 +1,18 @@
+{
+  "schema_version": "phase2-preprocessed-preview.v1",
+  "dataset_id": "nightlights-5313",
+  "source_url": "https://svs.gsfc.nasa.gov/vis/a000000/a005300/a005313/nightlights_flat_series_and_change_wZooms_13_EIC.02599_print.jpg",
+  "source_status": "metadata_verified_source_unverified",
+  "source_vs_proxy": "image_derived_proxy",
+  "scientific_variables": [],
+  "scientific_units": [],
+  "scientific_verification": "not_verified_by_preview_processing",
+  "input": {
+    "bytes": 63503,
+    "sha256": "6e3e92eae49ca666f2f694efaf17f342bf10c113ead2118f959e48d26e2581bc",
+    "format": "image/jpeg",
+    "width": 1024,
+    "height": 288
+  },
+  "feature_extraction": "none; provenance and image envelope only"
+}

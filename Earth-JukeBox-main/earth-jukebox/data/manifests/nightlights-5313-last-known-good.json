@@ -1,0 +1,11 @@
+{
+  "schema_version": "last-known-good.v1",
+  "dataset_id": "nightlights-5313",
+  "status": "promoted",
+  "promoted_at": "2026-11-15T02:56:18.455939+00:00",
+  "timeline": "data\\processed\\nightlights-5313\\proxy-feature-timeline.json",
+  "timeline_sha256": "0156434075e91b8c615cb78943dfc80b37e87ace84b26937628cf1264122e8a5",
+  "source_sha256": "6e3e92eae49ca666f2f694efaf17f342bf10c113ead2118f959e48d26e2581bc",
+  "source_vs_proxy": "image_derived_proxy",
+  "temporal_claim": "none"
+}

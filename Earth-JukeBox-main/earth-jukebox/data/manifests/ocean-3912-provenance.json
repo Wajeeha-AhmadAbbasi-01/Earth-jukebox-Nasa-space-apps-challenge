@@ -1,0 +1,39 @@
+{
+  "schema_version": "provenance-manifest.v1",
+  "dataset_id": "ocean-3912",
+  "acquisition": {
+    "url": "https://svs.gsfc.nasa.gov/vis/a000000/a003900/a003912/flat_global_ecco2_2028x1024.25000.jpg",
+    "local_path": "earth-jukebox/data/raw/ocean-3912/flat_global_ecco2_2028x1024.25000.jpg",
+    "sha256": "dcfd17864c2940f9ce1cf406e866818379991d57b0e900f9b8812f0c7cf72e3c",
+    "bytes": 1026047,
+    "accessed_at": "2026-11-14",
+    "status": "acquired_and_checksum_verified"
+  },
+  "processing": {
+    "script": "earth-jukebox/scripts/extract_visual_proxy_features.py",
+    "output": "data\\processed\\ocean-3912\\proxy-feature-timeline.json",
+    "feature_status": "image_derived_proxy_only",
+    "sonification_mapping": {
+      "mapping_id": "ocean-rendered-pixel",
+      "version": "v1",
+      "waveform": "sine",
+      "frequency_min_hz": 110,
+      "frequency_max_hz": 470,
+      "gain_floor": 0.015,
+      "gain_brightness_span": 0.09,
+      "pan_by_display_color": {
+        "warm": 0.25,
+        "cool": -0.25,
+        "green": 0.1,
+        "magenta": -0.1
+      }
+    }
+  },
+  "attribution": "Official SVS 3912 ECCO2 visualization. The local still is one rendered view, not a time series or the underlying ECCO2 numerical fields. Current direction, speed, and temperature are not recovered from pixels.",
+  "limitations": [
+    "Features are derived from rendered preview pixels only.",
+    "Color classes are display-color proxies, not scientific categories or concentration units.",
+    "The playback position is a spatial scan of one still/preview, not source chronology.",
+    "No event counts, physical units, calibrated radiance, or numerical model values are inferred."
+  ]
+}

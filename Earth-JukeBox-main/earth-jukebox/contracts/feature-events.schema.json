@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://earth-jukebox.invalid/contracts/feature-events.v1.schema.json",
+  "title": "Feature event timeline contract",
+  "description": "Bounded event offsets composed from a verified feature envelope and mapping contract.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "dataset_id",
+    "source_version",
+    "processing_version",
+    "mapping_id",
+    "mapping_version",
+    "events"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "feature-events.v1"
+    },
+    "dataset_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "processing_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "mapping_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "mapping_version": {
+      "type": "string",
+      "pattern": "^v[0-9]+$"
+    },
+    "events": {
+      "type": "array",
+      "maxItems": 100000,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "timestamp_seconds",
+          "source_value",
+          "mapped_value",
+          "feature_name",
+          "mapping_id",
+          "mapping_version"
+        ],
+        "properties": {
+          "timestamp_seconds": {
+            "type": "number",
+            "minimum": 0
+          },
+          "source_value": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "mapped_value": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "feature_name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "mapping_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "mapping_version": {
+            "type": "string",
+            "pattern": "^v[0-9]+$"
+          }
+        }
+      }
+    }
+  }
+}

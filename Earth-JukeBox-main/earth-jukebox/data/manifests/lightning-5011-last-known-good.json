@@ -1,0 +1,11 @@
+{
+  "schema_version": "last-known-good.v1",
+  "dataset_id": "lightning-5011",
+  "status": "promoted",
+  "promoted_at": "2026-11-15T06:59:30.156848+00:00",
+  "timeline": "data\\processed\\lightning-5011\\proxy-feature-timeline.json",
+  "timeline_sha256": "82e237fa5bd046a71d5d8da7d2eb3bbbdf4fe435bb44bd473808c875fe401afa",
+  "source_sha256": "34814a64183e515909f414051c17d30209ea1e30cd941c2e7c8f50ff1e884580",
+  "source_vs_proxy": "image_derived_proxy",
+  "temporal_claim": "none"
+}

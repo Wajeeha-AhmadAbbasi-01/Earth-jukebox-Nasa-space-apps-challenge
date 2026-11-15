@@ -1,0 +1,91 @@
+{
+  "GranuleUR": "ISS_LIS_SC_V3.0_20170301_011617_FIN.nc",
+  "ProviderDates": [
+    {
+      "Type": "Insert",
+      "Date": "2025-10-31T20:28:17Z"
+    },
+    {
+      "Type": "Update",
+      "Date": "2025-10-31T20:28:17Z"
+    }
+  ],
+  "CollectionReference": {
+    "ShortName": "isslis_v3_fin",
+    "Version": "3"
+  },
+  "AccessConstraints": {
+    "Description": "This product has full public access",
+    "Value": 0
+  },
+  "DataGranule": {
+    "DayNightFlag": "Unspecified",
+    "ProductionDateTime": "2025-10-31T20:28:17Z",
+    "ArchiveAndDistributionInformation": [
+      {
+        "Name": "ISS_LIS_SC_V3.0_20170301_011617_FIN.nc",
+        "Size": 1.91,
+        "SizeUnit": "MB",
+        "Format": "NETCDF-4"
+      }
+    ]
+  },
+  "TemporalExtent": {
+    "RangeDateTime": {
+      "BeginningDateTime": "2017-03-01T01:16:28Z",
+      "EndingDateTime": "2017-03-01T02:49:01Z"
+    }
+  },
+  "SpatialExtent": {
+    "HorizontalSpatialDomain": {
+      "Geometry": {
+        "BoundingRectangles": [
+          {
+            "WestBoundingCoordinate": -47.711,
+            "EastBoundingCoordinate": -74.875,
+            "NorthBoundingCoordinate": 51.852,
+            "SouthBoundingCoordinate": -51.703
+          }
+        ]
+      }
+    }
+  },
+  "RelatedUrls": [
+    {
+      "URL": "https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/isslis_v3_fin__3/ISS_LIS_SC_V3.0_20170301_011617_FIN.nc",
+      "Description": "Download ISS_LIS_SC_V3.0_20170301_011617_FIN.nc",
+      "Type": "GET DATA"
+    },
+    {
+      "URL": "https://data.ghrc.earthdata.nasa.gov/ghrcw-public/isslis_v3_fin__3/ISS_LIS_SC_V3.0_20170301_011617_FIN.nc.cmr.json",
+      "Description": "Download ISS_LIS_SC_V3.0_20170301_011617_FIN.nc.cmr.json",
+      "Type": "EXTENDED METADATA"
+    },
+    {
+      "URL": "s3://ghrcw-protected/isslis_v3_fin__3/ISS_LIS_SC_V3.0_20170301_011617_FIN.nc",
+      "Description": "This link provides direct download access via S3 to the granule",
+      "Type": "GET DATA VIA DIRECT ACCESS"
+    },
+    {
+      "URL": "s3://ghrcw-public/isslis_v3_fin__3/ISS_LIS_SC_V3.0_20170301_011617_FIN.nc.cmr.json",
+      "Description": "This link provides direct download access via S3 to the granule",
+      "Type": "EXTENDED METADATA"
+    },
+    {
+      "URL": "https://data.ghrc.earthdata.nasa.gov/s3credentials",
+      "Description": "api endpoint to retrieve temporary credentials valid for same-region direct s3 access",
+      "Type": "VIEW RELATED INFORMATION"
+    },
+    {
+      "URL": "https://opendap.earthdata.nasa.gov/collections/C3838944284-GHRC_DAAC/granules/ISS_LIS_SC_V3.0_20170301_011617_FIN.nc",
+      "Type": "USE SERVICE API",
+      "Subtype": "OPENDAP DATA",
+      "Description": "OPeNDAP request URL"
+    }
+  ],
+  "MetadataSpecification": {
+    "URL": "https://cdn.earthdata.nasa.gov/umm/granule/v1.6.2",
+    "Name": "UMM-G",
+    "Version": "1.6.2"
+  }
+}

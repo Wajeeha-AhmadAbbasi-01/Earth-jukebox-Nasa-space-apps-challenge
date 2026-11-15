@@ -1,0 +1,430 @@
+{
+  "schema_version": "nightlights-proxy-timeline.v1",
+  "dataset_id": "nightlights-5313",
+  "source": {
+    "title": "Change in Night Lights between 2012 and 2023 - EIC Version",
+    "page_url": "https://svs.gsfc.nasa.gov/5313/",
+    "asset_url": "https://svs.gsfc.nasa.gov/vis/a000000/a005300/a005313/nightlights_flat_series_and_change_wZooms_13_EIC.02599_print.jpg",
+    "local_path": "earth-jukebox/data/raw/nightlights-5313/nightlights_flat_series_and_change_wZooms_13_EIC.02599_print.jpg",
+    "sha256": "6e3e92eae49ca666f2f694efaf17f342bf10c113ead2118f959e48d26e2581bc",
+    "format": "image/jpeg",
+    "width": 1024,
+    "height": 288
+  },
+  "verification": {
+    "status": "metadata_verified_source_unverified",
+    "source_vs_proxy": "image_derived_proxy",
+    "scientific_claims": [
+      "Rendered brightness is a proxy derived from preview pixels.",
+      "Color classes are deterministic display-color proxies.",
+      "No calibrated radiance, physical units, or numerical Black Marble values are inferred.",
+      "The playback timeline is a spatial scan of one composite render, not annual source time."
+    ],
+    "temporal_claim": "none",
+    "excluded_regions": [
+      {
+        "name": "western_europe_inset",
+        "left": 89,
+        "top": 97,
+        "right": 267,
+        "bottom": 276
+      },
+      {
+        "name": "eastern_mediterranean_inset",
+        "left": 314,
+        "top": 0,
+        "right": 431,
+        "bottom": 171
+      },
+      {
+        "name": "ukraine_inset",
+        "left": 618,
+        "top": 8,
+        "right": 767,
+        "bottom": 122
+      },
+      {
+        "name": "india_inset",
+        "left": 806,
+        "top": 137,
+        "right": 945,
+        "bottom": 280
+      },
+      {
+        "name": "change_legend",
+        "left": 494,
+        "top": 153,
+        "right": 587,
+        "bottom": 177
+      }
+    ]
+  },
+  "timeline": {
+    "duration_seconds": 24.0,
+    "segment_count": 24,
+    "sampling": "equal-width vertical strips across the acquired composite after masking inset panels and legend",
+    "semantics": "spatial scan playback position only; not source chronology or annual frame timing"
+  },
+  "features": [
+    {
+      "index": 0,
+      "time_seconds": 0.0,
+      "rendered_brightness_proxy": 0.025839,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.892113,
+      "unclassified_share": 0.892113,
+      "excluded_share": 0.0,
+      "source_pixel_region": {
+        "left": 0,
+        "top": 0,
+        "right": 42,
+        "bottom": 288
+      }
+    },
+    {
+      "index": 1,
+      "time_seconds": 1.0,
+      "rendered_brightness_proxy": 0.041876,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.832849,
+      "unclassified_share": 0.832849,
+      "excluded_share": 0.0,
+      "source_pixel_region": {
+        "left": 42,
+        "top": 0,
+        "right": 85,
+        "bottom": 288
+      }
+    },
+    {
+      "index": 2,
+      "time_seconds": 2.0,
+      "rendered_brightness_proxy": 0.101039,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.587266,
+      "unclassified_share": 0.587266,
+      "excluded_share": 0.563711,
+      "source_pixel_region": {
+        "left": 85,
+        "top": 0,
+        "right": 128,
+        "bottom": 288
+      }
+    },
+    {
+      "index": 3,
+      "time_seconds": 3.0,
+      "rendered_brightness_proxy": 0.085952,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.59917,
+      "unclassified_share": 0.59917,
+      "excluded_share": 0.621528,
+      "source_pixel_region": {
+        "left": 128,
+        "top": 0,
+        "right": 170,
+        "bottom": 288
+      }
+    },
+    {
+      "index": 4,
+      "time_seconds": 4.0,
+      "rendered_brightness_proxy": 0.080156,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.602304,
+      "unclassified_share": 0.602304,
+      "excluded_share": 0.621528,
+      "source_pixel_region": {
+        "left": 170,
+        "top": 0,
+        "right": 213,
+        "bottom": 288
+      }
+    },
+    {
+      "index": 5,
+      "time_seconds": 5.0,
+      "rendered_brightness_proxy": 0.070677,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.690847,
+      "unclassified_share": 0.690847,
+      "excluded_share": 0.621528,
+      "source_pixel_region": {
+        "left": 213,
+        "top": 0,
+        "right": 256,
+        "bottom": 288
+      }
+    },
+    {
+      "index": 6,
+      "time_seconds": 6.0,
+      "rendered_brightness_proxy": 0.081148,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.700899,
+      "unclassified_share": 0.700899,
+      "excluded_share": 0.162781,
+      "source_pixel_region": {
+        "left": 256,
+        "top": 0,
+        "right": 298,
+        "bottom": 288
+      }
+    },
+    {
+      "index": 7,
+      "time_seconds": 7.0,
+      "rendered_brightness_proxy": 0.088825,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.610532,
+      "unclassified_share": 0.610532,
+      "excluded_share": 0.37282,
+      "source_pixel_region": {
+        "left": 298,
+        "top": 0,
+        "right": 341,
+        "bottom": 288
+      }
+    },
+    {
+      "index": 8,
+      "time_seconds": 8.0,
+      "rendered_brightness_proxy": 0.061714,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.690718,
+      "unclassified_share": 0.690718,
+      "excluded_share": 0.59375,
+      "source_pixel_region": {
+        "left": 341,
+        "top": 0,
+        "right": 384,
+        "bottom": 288
+      }
+    },
+    {
+      "index": 9,
+      "time_seconds": 9.0,
+      "rendered_brightness_proxy": 0.074076,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.673993,
+      "unclassified_share": 0.673993,
+      "excluded_share": 0.59375,
+      "source_pixel_region": {
+        "left": 384,
+        "top": 0,
+        "right": 426,
+        "bottom": 288
+      }
+    },
+    {
+      "index": 10,
+      "time_seconds": 10.0,
+      "rendered_brightness_proxy": 0.053048,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.774222,
+      "unclassified_share": 0.774222,
+      "excluded_share": 0.069041,
+      "source_pixel_region": {
+        "left": 426,
+        "top": 0,
+        "right": 469,
+        "bottom": 288
+      }
+    },
+    {
+      "index": 11,
+      "time_seconds": 11.0,
+      "rendered_brightness_proxy": 0.025283,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.89257,
+      "unclassified_share": 0.89257,
+      "excluded_share": 0.034884,
+      "source_pixel_region": {
+        "left": 469,
+        "top": 0,
+        "right": 512,
+        "bottom": 288
+      }
+    },
+    {
+      "index": 12,
+      "time_seconds": 12.0,
+      "rendered_brightness_proxy": 0.027654,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.883027,
+      "unclassified_share": 0.883027,
+      "excluded_share": 0.083333,
+      "source_pixel_region": {
+        "left": 512,
+        "top": 0,
+        "right": 554,
+        "bottom": 288
+      }
+    },
+    {
+      "index": 13,
+      "time_seconds": 13.0,
+      "rendered_brightness_proxy": 0.044212,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.823326,
+      "unclassified_share": 0.823326,
+      "excluded_share": 0.063953,
+      "source_pixel_region": {
+        "left": 554,
+        "top": 0,
+        "right": 597,
+        "bottom": 288
+      }
+    },
+    {
+      "index": 14,
+      "time_seconds": 14.0,
+      "rendered_brightness_proxy": 0.051297,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.793034,
+      "unclassified_share": 0.793034,
+      "excluded_share": 0.202519,
+      "source_pixel_region": {
+        "left": 597,
+        "top": 0,
+        "right": 640,
+        "bottom": 288
+      }
+    },
+    {
+      "index": 15,
+      "time_seconds": 15.0,
+      "rendered_brightness_proxy": 0.064947,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.807608,
+      "unclassified_share": 0.807608,
+      "excluded_share": 0.395833,
+      "source_pixel_region": {
+        "left": 640,
+        "top": 0,
+        "right": 682,
+        "bottom": 288
+      }
+    },
+    {
+      "index": 16,
+      "time_seconds": 16.0,
+      "rendered_brightness_proxy": 0.034657,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.864608,
+      "unclassified_share": 0.864608,
+      "excluded_share": 0.395833,
+      "source_pixel_region": {
+        "left": 682,
+        "top": 0,
+        "right": 725,
+        "bottom": 288
+      }
+    },
+    {
+      "index": 17,
+      "time_seconds": 17.0,
+      "rendered_brightness_proxy": 0.047282,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.796472,
+      "unclassified_share": 0.796472,
+      "excluded_share": 0.386628,
+      "source_pixel_region": {
+        "left": 725,
+        "top": 0,
+        "right": 768,
+        "bottom": 288
+      }
+    },
+    {
+      "index": 18,
+      "time_seconds": 18.0,
+      "rendered_brightness_proxy": 0.08948,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.648907,
+      "unclassified_share": 0.648907,
+      "excluded_share": 0.047288,
+      "source_pixel_region": {
+        "left": 768,
+        "top": 0,
+        "right": 810,
+        "bottom": 288
+      }
+    },
+    {
+      "index": 19,
+      "time_seconds": 19.0,
+      "rendered_brightness_proxy": 0.094579,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.596792,
+      "unclassified_share": 0.596792,
+      "excluded_share": 0.496528,
+      "source_pixel_region": {
+        "left": 810,
+        "top": 0,
+        "right": 853,
+        "bottom": 288
+      }
+    },
+    {
+      "index": 20,
+      "time_seconds": 20.0,
+      "rendered_brightness_proxy": 0.110744,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.508901,
+      "unclassified_share": 0.508901,
+      "excluded_share": 0.496528,
+      "source_pixel_region": {
+        "left": 853,
+        "top": 0,
+        "right": 896,
+        "bottom": 288
+      }
+    },
+    {
+      "index": 21,
+      "time_seconds": 21.0,
+      "rendered_brightness_proxy": 0.093121,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.601314,
+      "unclassified_share": 0.601314,
+      "excluded_share": 0.496528,
+      "source_pixel_region": {
+        "left": 896,
+        "top": 0,
+        "right": 938,
+        "bottom": 288
+      }
+    },
+    {
+      "index": 22,
+      "time_seconds": 22.0,
+      "rendered_brightness_proxy": 0.05173,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.779408,
+      "unclassified_share": 0.779408,
+      "excluded_share": 0.08083,
+      "source_pixel_region": {
+        "left": 938,
+        "top": 0,
+        "right": 981,
+        "bottom": 288
+      }
+    },
+    {
+      "index": 23,
+      "time_seconds": 23.0,
+      "rendered_brightness_proxy": 0.024665,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.895349,
+      "unclassified_share": 0.895349,
+      "excluded_share": 0.0,
+      "source_pixel_region": {
+        "left": 981,
+        "top": 0,
+        "right": 1024,
+        "bottom": 288
+      }
+    }
+  ]
+}

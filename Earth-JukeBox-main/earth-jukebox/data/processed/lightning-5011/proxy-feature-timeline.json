@@ -1,0 +1,412 @@
+{
+  "schema_version": "visual-proxy-timeline.v1",
+  "dataset_id": "lightning-5011",
+  "source": {
+    "title": "Lightning Events Detected from the International Space Station (ISS) 2017-2023",
+    "page_url": "https://svs.gsfc.nasa.gov/5011/",
+    "asset_url": "https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005011/iss_lightning_preview.jpg",
+    "local_path": "earth-jukebox/data/raw/lightning-5011/iss_lightning_preview.jpg",
+    "sha256": "34814a64183e515909f414051c17d30209ea1e30cd941c2e7c8f50ff1e884580",
+    "bytes": 266956,
+    "format": "image/jpeg",
+    "width": 1024,
+    "height": 576,
+    "analysis_width": 320,
+    "analysis_height": 180
+  },
+  "verification": {
+    "status": "metadata_verified_source_unverified",
+    "source_vs_proxy": "image_derived_proxy",
+    "scientific_claims": [
+      "Features are derived from rendered preview pixels only.",
+      "Color classes are deterministic display-color proxies, not calibrated scientific values.",
+      "The playback position is a spatial scan of a still image, not source chronology.",
+      "No physical units, event counts, concentrations, current vectors, or calibrated temperatures are inferred."
+    ],
+    "temporal_claim": "none",
+    "source_notes": "Official ISS LIS quality-controlled visualization. LIS does not continuously observe every location. Numerical schema, exact source lineage, event/group/flash semantics, units, and quality flags remain unverified."
+  },
+  "timeline": {
+    "duration_seconds": 24,
+    "segment_count": 24,
+    "sampling": "Equal-width vertical strips of a bounded 320x180-or-smaller resampling of the local official preview",
+    "semantics": "spatial scan playback position only; not source chronology"
+  },
+  "features": [
+    {
+      "index": 0,
+      "time_seconds": 0,
+      "rendered_brightness_proxy": 0.009456,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.999145,
+      "unclassified_share": 0.999145,
+      "excluded_share": 0,
+      "source_pixel_region": {
+        "left": 0,
+        "top": 0,
+        "right": 41,
+        "bottom": 576
+      }
+    },
+    {
+      "index": 1,
+      "time_seconds": 1,
+      "rendered_brightness_proxy": 0.023027,
+      "color_class_proxy": "cool",
+      "low_signal_share": 0.955556,
+      "unclassified_share": 0.955556,
+      "excluded_share": 0,
+      "source_pixel_region": {
+        "left": 41,
+        "top": 0,
+        "right": 83,
+        "bottom": 576
+      }
+    },
+    {
+      "index": 2,
+      "time_seconds": 2,
+      "rendered_brightness_proxy": 0.199862,
+      "color_class_proxy": "cool",
+      "low_signal_share": 0.453175,
+      "unclassified_share": 0.453175,
+      "excluded_share": 0,
+      "source_pixel_region": {
+        "left": 83,
+        "top": 0,
+        "right": 128,
+        "bottom": 576
+      }
+    },
+    {
+      "index": 3,
+      "time_seconds": 3,
+      "rendered_brightness_proxy": 0.261049,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.249145,
+      "unclassified_share": 0.249145,
+      "excluded_share": 0,
+      "source_pixel_region": {
+        "left": 128,
+        "top": 0,
+        "right": 169,
+        "bottom": 576
+      }
+    },
+    {
+      "index": 4,
+      "time_seconds": 4,
+      "rendered_brightness_proxy": 0.297456,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.15641,
+      "unclassified_share": 0.15641,
+      "excluded_share": 0,
+      "source_pixel_region": {
+        "left": 169,
+        "top": 0,
+        "right": 211,
+        "bottom": 576
+      }
+    },
+    {
+      "index": 5,
+      "time_seconds": 5,
+      "rendered_brightness_proxy": 0.352429,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.080952,
+      "unclassified_share": 0.080952,
+      "excluded_share": 0,
+      "source_pixel_region": {
+        "left": 211,
+        "top": 0,
+        "right": 256,
+        "bottom": 576
+      }
+    },
+    {
+      "index": 6,
+      "time_seconds": 6,
+      "rendered_brightness_proxy": 0.352748,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.030342,
+      "unclassified_share": 0.030342,
+      "excluded_share": 0,
+      "source_pixel_region": {
+        "left": 256,
+        "top": 0,
+        "right": 297,
+        "bottom": 576
+      }
+    },
+    {
+      "index": 7,
+      "time_seconds": 7,
+      "rendered_brightness_proxy": 0.35293,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.000855,
+      "unclassified_share": 0.000855,
+      "excluded_share": 0,
+      "source_pixel_region": {
+        "left": 297,
+        "top": 0,
+        "right": 339,
+        "bottom": 576
+      }
+    },
+    {
+      "index": 8,
+      "time_seconds": 8,
+      "rendered_brightness_proxy": 0.322915,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0,
+      "unclassified_share": 0,
+      "excluded_share": 0,
+      "source_pixel_region": {
+        "left": 339,
+        "top": 0,
+        "right": 384,
+        "bottom": 576
+      }
+    },
+    {
+      "index": 9,
+      "time_seconds": 9,
+      "rendered_brightness_proxy": 0.304395,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.002137,
+      "unclassified_share": 0.002137,
+      "excluded_share": 0,
+      "source_pixel_region": {
+        "left": 384,
+        "top": 0,
+        "right": 425,
+        "bottom": 576
+      }
+    },
+    {
+      "index": 10,
+      "time_seconds": 10,
+      "rendered_brightness_proxy": 0.261023,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.002991,
+      "unclassified_share": 0.002991,
+      "excluded_share": 0,
+      "source_pixel_region": {
+        "left": 425,
+        "top": 0,
+        "right": 467,
+        "bottom": 576
+      }
+    },
+    {
+      "index": 11,
+      "time_seconds": 11,
+      "rendered_brightness_proxy": 0.2485,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.000794,
+      "unclassified_share": 0.000794,
+      "excluded_share": 0,
+      "source_pixel_region": {
+        "left": 467,
+        "top": 0,
+        "right": 512,
+        "bottom": 576
+      }
+    },
+    {
+      "index": 12,
+      "time_seconds": 12,
+      "rendered_brightness_proxy": 0.226377,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.008974,
+      "unclassified_share": 0.008974,
+      "excluded_share": 0,
+      "source_pixel_region": {
+        "left": 512,
+        "top": 0,
+        "right": 553,
+        "bottom": 576
+      }
+    },
+    {
+      "index": 13,
+      "time_seconds": 13,
+      "rendered_brightness_proxy": 0.20024,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.008547,
+      "unclassified_share": 0.008547,
+      "excluded_share": 0,
+      "source_pixel_region": {
+        "left": 553,
+        "top": 0,
+        "right": 595,
+        "bottom": 576
+      }
+    },
+    {
+      "index": 14,
+      "time_seconds": 14,
+      "rendered_brightness_proxy": 0.182279,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.043651,
+      "unclassified_share": 0.043651,
+      "excluded_share": 0,
+      "source_pixel_region": {
+        "left": 595,
+        "top": 0,
+        "right": 640,
+        "bottom": 576
+      }
+    },
+    {
+      "index": 15,
+      "time_seconds": 15,
+      "rendered_brightness_proxy": 0.153591,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.273932,
+      "unclassified_share": 0.273932,
+      "excluded_share": 0,
+      "source_pixel_region": {
+        "left": 640,
+        "top": 0,
+        "right": 681,
+        "bottom": 576
+      }
+    },
+    {
+      "index": 16,
+      "time_seconds": 16,
+      "rendered_brightness_proxy": 0.106647,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.69188,
+      "unclassified_share": 0.69188,
+      "excluded_share": 0,
+      "source_pixel_region": {
+        "left": 681,
+        "top": 0,
+        "right": 723,
+        "bottom": 576
+      }
+    },
+    {
+      "index": 17,
+      "time_seconds": 17,
+      "rendered_brightness_proxy": 0.051571,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.988889,
+      "unclassified_share": 0.988889,
+      "excluded_share": 0,
+      "source_pixel_region": {
+        "left": 723,
+        "top": 0,
+        "right": 768,
+        "bottom": 576
+      }
+    },
+    {
+      "index": 18,
+      "time_seconds": 18,
+      "rendered_brightness_proxy": 0.002566,
+      "color_class_proxy": "unclassified",
+      "low_signal_share": 1,
+      "unclassified_share": 1,
+      "excluded_share": 0,
+      "source_pixel_region": {
+        "left": 768,
+        "top": 0,
+        "right": 809,
+        "bottom": 576
+      }
+    },
+    {
+      "index": 19,
+      "time_seconds": 19,
+      "rendered_brightness_proxy": 0.000424,
+      "color_class_proxy": "unclassified",
+      "low_signal_share": 1,
+      "unclassified_share": 1,
+      "excluded_share": 0,
+      "source_pixel_region": {
+        "left": 809,
+        "top": 0,
+        "right": 851,
+        "bottom": 576
+      }
+    },
+    {
+      "index": 20,
+      "time_seconds": 20,
+      "rendered_brightness_proxy": 0.001641,
+      "color_class_proxy": "warm",
+      "low_signal_share": 0.997619,
+      "unclassified_share": 0.997619,
+      "excluded_share": 0,
+      "source_pixel_region": {
+        "left": 851,
+        "top": 0,
+        "right": 896,
+        "bottom": 576
+      }
+    },
+    {
+      "index": 21,
+      "time_seconds": 21,
+      "rendered_brightness_proxy": 0.005272,
+      "color_class_proxy": "mixed",
+      "low_signal_share": 0.988034,
+      "unclassified_share": 0.988034,
+      "excluded_share": 0,
+      "source_pixel_region": {
+        "left": 896,
+        "top": 0,
+        "right": 937,
+        "bottom": 576
+      }
+    },
+    {
+      "index": 22,
+      "time_seconds": 22,
+      "rendered_brightness_proxy": 0.007536,
+      "color_class_proxy": "mixed",
+      "low_signal_share": 0.986752,
+      "unclassified_share": 0.986752,
+      "excluded_share": 0,
+      "source_pixel_region": {
+        "left": 937,
+        "top": 0,
+        "right": 979,
+        "bottom": 576
+      }
+    },
+    {
+      "index": 23,
+      "time_seconds": 23,
+      "rendered_brightness_proxy": 0.00262,
+      "color_class_proxy": "unclassified",
+      "low_signal_share": 1,
+      "unclassified_share": 1,
+      "excluded_share": 0,
+      "source_pixel_region": {
+        "left": 979,
+        "top": 0,
+        "right": 1024,
+        "bottom": 576
+      }
+    }
+  ],
+  "sonification_mapping": {
+    "mapping_id": "lightning-rendered-pixel",
+    "version": "v1",
+    "waveform": "triangle",
+    "frequency_min_hz": 220,
+    "frequency_max_hz": 700,
+    "gain_floor": 0.015,
+    "gain_brightness_span": 0.07,
+    "pan_by_display_color": {
+      "warm": 0.25,
+      "cool": -0.25,
+      "green": 0.1,
+      "magenta": -0.1
+    }
+  }
+}

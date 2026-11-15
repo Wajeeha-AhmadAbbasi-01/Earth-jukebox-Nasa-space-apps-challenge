@@ -1,0 +1,174 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://earth-jukebox.invalid/contracts/feature-envelope.v1.schema.json",
+  "title": "Earth Jukebox feature provenance envelope",
+  "description": "Metadata boundary for validated offline features. This schema does not verify scientific values.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "dataset_id",
+    "source",
+    "verification",
+    "processing",
+    "mapping",
+    "features"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "feature-envelope.v1"
+    },
+    "dataset_id": {
+      "enum": [
+        "lightning-5011",
+        "aerosols-5669",
+        "nightlights-5313"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "official_url",
+        "retrieval_timestamp",
+        "source_version",
+        "source_vs_proxy"
+      ],
+      "properties": {
+        "official_url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "retrieval_timestamp": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "source_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_vs_proxy": {
+          "enum": [
+            "verified_source",
+            "image_derived_proxy",
+            "model_output_proxy"
+          ]
+        },
+        "original_filename": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-fA-F0-9]{64}$"
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "schema_verified",
+        "record_semantics_verified",
+        "limitations"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "verified",
+            "metadata_verified_source_unverified",
+            "blocked"
+          ]
+        },
+        "schema_verified": {
+          "type": "boolean"
+        },
+        "record_semantics_verified": {
+          "type": "boolean"
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "processing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "version",
+        "method",
+        "missing_value_policy"
+      ],
+      "properties": {
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "method": {
+          "type": "string",
+          "minLength": 1
+        },
+        "missing_value_policy": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "mapping": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "version",
+        "name"
+      ],
+      "properties": {
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "values",
+          "unit",
+          "meaning"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "values": {
+            "type": "array"
+          },
+          "unit": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "meaning": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}

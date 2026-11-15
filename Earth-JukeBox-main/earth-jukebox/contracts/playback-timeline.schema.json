@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://earth-jukebox.invalid/contracts/playback-timeline.v1.schema.json",
+  "title": "Dataset-agnostic playback timeline contract",
+  "description": "Bounded shared-clock state for visualization and future audio consumers.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "duration_seconds",
+    "position_seconds",
+    "speed",
+    "state"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "playback-timeline.v1"
+    },
+    "duration_seconds": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 86400
+    },
+    "position_seconds": {
+      "type": "number",
+      "minimum": 0
+    },
+    "speed": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 8
+    },
+    "state": {
+      "enum": [
+        "stopped",
+        "paused",
+        "playing"
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": "last-known-good.v1",
+  "dataset_id": "aerosols-5669",
+  "status": "promoted",
+  "promoted_at": "2026-11-15T02:56:18.453937+00:00",
+  "timeline": "data\\processed\\aerosols-5669\\proxy-feature-timeline.json",
+  "timeline_sha256": "4e3bd6a3a772dce0b499e08ebefdeba5a6faf388a2e0d6ca7602e3285759263a",
+  "source_sha256": "0c6a8f6c46fb52a2f9a636bbd804fc6e5e23454dcb2f0d3fe04c653c772e8a7a",
+  "source_vs_proxy": "image_derived_proxy",
+  "temporal_claim": "none"
+}

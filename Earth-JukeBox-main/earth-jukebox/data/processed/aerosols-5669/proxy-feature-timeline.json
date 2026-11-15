@@ -1,0 +1,395 @@
+{
+  "schema_version": "visual-proxy-timeline.v1",
+  "dataset_id": "aerosols-5669",
+  "source": {
+    "title": "GEOS Aerosols (2025)",
+    "page_url": "https://svs.gsfc.nasa.gov/5669/",
+    "asset_url": "https://svs.gsfc.nasa.gov/vis/a000000/a005600/a005669/Aerosols_2025-08-19T20_00_00_1920x1080.png",
+    "local_path": "earth-jukebox/data/raw/aerosols-5669/Aerosols_2025-08-19T20_00_00_1920x1080.png",
+    "sha256": "0c6a8f6c46fb52a2f9a636bbd804fc6e5e23454dcb2f0d3fe04c653c772e8a7a",
+    "bytes": 2768951,
+    "format": "image/png",
+    "width": 1920,
+    "height": 1080
+  },
+  "verification": {
+    "status": "metadata_verified_source_unverified",
+    "source_vs_proxy": "image_derived_proxy",
+    "scientific_claims": [
+      "Features are derived from rendered preview pixels only.",
+      "Color classes are display-color proxies, not scientific categories or concentration units.",
+      "The playback position is a spatial scan of one still/preview, not source chronology.",
+      "No event counts, physical units, calibrated radiance, or numerical model values are inferred."
+    ],
+    "temporal_claim": "none",
+    "source_notes": "GEOS/GEOS-FP model output visualization. No numerical aerosol field is exposed by the SVS page/API; color categories are not concentration units."
+  },
+  "timeline": {
+    "duration_seconds": 24.0,
+    "segment_count": 24,
+    "sampling": "equal-width vertical strips across the approved local preview",
+    "semantics": "spatial scan playback position only; not source chronology"
+  },
+  "features": [
+    {
+      "index": 0,
+      "time_seconds": 0.0,
+      "rendered_brightness_proxy": 0.157853,
+      "color_class_proxy": "green",
+      "low_signal_share": 0.402292,
+      "unclassified_share": 0.402292,
+      "excluded_share": 0.0,
+      "source_pixel_region": {
+        "left": 0,
+        "top": 0,
+        "right": 80,
+        "bottom": 1080
+      }
+    },
+    {
+      "index": 1,
+      "time_seconds": 1.0,
+      "rendered_brightness_proxy": 0.145699,
+      "color_class_proxy": "green",
+      "low_signal_share": 0.477928,
+      "unclassified_share": 0.477928,
+      "excluded_share": 0.0,
+      "source_pixel_region": {
+        "left": 80,
+        "top": 0,
+        "right": 160,
+        "bottom": 1080
+      }
+    },
+    {
+      "index": 2,
+      "time_seconds": 2.0,
+      "rendered_brightness_proxy": 0.130842,
+      "color_class_proxy": "green",
+      "low_signal_share": 0.526447,
+      "unclassified_share": 0.526447,
+      "excluded_share": 0.0,
+      "source_pixel_region": {
+        "left": 160,
+        "top": 0,
+        "right": 240,
+        "bottom": 1080
+      }
+    },
+    {
+      "index": 3,
+      "time_seconds": 3.0,
+      "rendered_brightness_proxy": 0.124168,
+      "color_class_proxy": "green",
+      "low_signal_share": 0.551887,
+      "unclassified_share": 0.551887,
+      "excluded_share": 0.0,
+      "source_pixel_region": {
+        "left": 240,
+        "top": 0,
+        "right": 320,
+        "bottom": 1080
+      }
+    },
+    {
+      "index": 4,
+      "time_seconds": 4.0,
+      "rendered_brightness_proxy": 0.162722,
+      "color_class_proxy": "green",
+      "low_signal_share": 0.338866,
+      "unclassified_share": 0.338866,
+      "excluded_share": 0.0,
+      "source_pixel_region": {
+        "left": 320,
+        "top": 0,
+        "right": 400,
+        "bottom": 1080
+      }
+    },
+    {
+      "index": 5,
+      "time_seconds": 5.0,
+      "rendered_brightness_proxy": 0.186195,
+      "color_class_proxy": "green",
+      "low_signal_share": 0.292627,
+      "unclassified_share": 0.292627,
+      "excluded_share": 0.0,
+      "source_pixel_region": {
+        "left": 400,
+        "top": 0,
+        "right": 480,
+        "bottom": 1080
+      }
+    },
+    {
+      "index": 6,
+      "time_seconds": 6.0,
+      "rendered_brightness_proxy": 0.178755,
+      "color_class_proxy": "green",
+      "low_signal_share": 0.359051,
+      "unclassified_share": 0.359051,
+      "excluded_share": 0.0,
+      "source_pixel_region": {
+        "left": 480,
+        "top": 0,
+        "right": 560,
+        "bottom": 1080
+      }
+    },
+    {
+      "index": 7,
+      "time_seconds": 7.0,
+      "rendered_brightness_proxy": 0.178684,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.277951,
+      "unclassified_share": 0.277951,
+      "excluded_share": 0.0,
+      "source_pixel_region": {
+        "left": 560,
+        "top": 0,
+        "right": 640,
+        "bottom": 1080
+      }
+    },
+    {
+      "index": 8,
+      "time_seconds": 8.0,
+      "rendered_brightness_proxy": 0.18131,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.319028,
+      "unclassified_share": 0.319028,
+      "excluded_share": 0.0,
+      "source_pixel_region": {
+        "left": 640,
+        "top": 0,
+        "right": 720,
+        "bottom": 1080
+      }
+    },
+    {
+      "index": 9,
+      "time_seconds": 9.0,
+      "rendered_brightness_proxy": 0.163254,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.435012,
+      "unclassified_share": 0.435012,
+      "excluded_share": 0.0,
+      "source_pixel_region": {
+        "left": 720,
+        "top": 0,
+        "right": 800,
+        "bottom": 1080
+      }
+    },
+    {
+      "index": 10,
+      "time_seconds": 10.0,
+      "rendered_brightness_proxy": 0.15694,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.547292,
+      "unclassified_share": 0.547292,
+      "excluded_share": 0.0,
+      "source_pixel_region": {
+        "left": 800,
+        "top": 0,
+        "right": 880,
+        "bottom": 1080
+      }
+    },
+    {
+      "index": 11,
+      "time_seconds": 11.0,
+      "rendered_brightness_proxy": 0.186089,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.460868,
+      "unclassified_share": 0.460868,
+      "excluded_share": 0.0,
+      "source_pixel_region": {
+        "left": 880,
+        "top": 0,
+        "right": 960,
+        "bottom": 1080
+      }
+    },
+    {
+      "index": 12,
+      "time_seconds": 12.0,
+      "rendered_brightness_proxy": 0.208432,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.375266,
+      "unclassified_share": 0.375266,
+      "excluded_share": 0.0,
+      "source_pixel_region": {
+        "left": 960,
+        "top": 0,
+        "right": 1040,
+        "bottom": 1080
+      }
+    },
+    {
+      "index": 13,
+      "time_seconds": 13.0,
+      "rendered_brightness_proxy": 0.225898,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.289572,
+      "unclassified_share": 0.289572,
+      "excluded_share": 0.0,
+      "source_pixel_region": {
+        "left": 1040,
+        "top": 0,
+        "right": 1120,
+        "bottom": 1080
+      }
+    },
+    {
+      "index": 14,
+      "time_seconds": 14.0,
+      "rendered_brightness_proxy": 0.231586,
+      "color_class_proxy": "neutral",
+      "low_signal_share": 0.259861,
+      "unclassified_share": 0.259861,
+      "excluded_share": 0.0,
+      "source_pixel_region": {
+        "left": 1120,
+        "top": 0,
+        "right": 1200,
+        "bottom": 1080
+      }
+    },
+    {
+      "index": 15,
+      "time_seconds": 15.0,
+      "rendered_brightness_proxy": 0.24916,
+      "color_class_proxy": "green",
+      "low_signal_share": 0.224167,
+      "unclassified_share": 0.224167,
+      "excluded_share": 0.0,
+      "source_pixel_region": {
+        "left": 1200,
+        "top": 0,
+        "right": 1280,
+        "bottom": 1080
+      }
+    },
+    {
+      "index": 16,
+      "time_seconds": 16.0,
+      "rendered_brightness_proxy": 0.226989,
+      "color_class_proxy": "green",
+      "low_signal_share": 0.225394,
+      "unclassified_share": 0.225394,
+      "excluded_share": 0.0,
+      "source_pixel_region": {
+        "left": 1280,
+        "top": 0,
+        "right": 1360,
+        "bottom": 1080
+      }
+    },
+    {
+      "index": 17,
+      "time_seconds": 17.0,
+      "rendered_brightness_proxy": 0.21679,
+      "color_class_proxy": "green",
+      "low_signal_share": 0.214583,
+      "unclassified_share": 0.214583,
+      "excluded_share": 0.0,
+      "source_pixel_region": {
+        "left": 1360,
+        "top": 0,
+        "right": 1440,
+        "bottom": 1080
+      }
+    },
+    {
+      "index": 18,
+      "time_seconds": 18.0,
+      "rendered_brightness_proxy": 0.222139,
+      "color_class_proxy": "green",
+      "low_signal_share": 0.182708,
+      "unclassified_share": 0.182708,
+      "excluded_share": 0.0,
+      "source_pixel_region": {
+        "left": 1440,
+        "top": 0,
+        "right": 1520,
+        "bottom": 1080
+      }
+    },
+    {
+      "index": 19,
+      "time_seconds": 19.0,
+      "rendered_brightness_proxy": 0.206359,
+      "color_class_proxy": "green",
+      "low_signal_share": 0.211748,
+      "unclassified_share": 0.211748,
+      "excluded_share": 0.0,
+      "source_pixel_region": {
+        "left": 1520,
+        "top": 0,
+        "right": 1600,
+        "bottom": 1080
+      }
+    },
+    {
+      "index": 20,
+      "time_seconds": 20.0,
+      "rendered_brightness_proxy": 0.192306,
+      "color_class_proxy": "green",
+      "low_signal_share": 0.2336,
+      "unclassified_share": 0.2336,
+      "excluded_share": 0.0,
+      "source_pixel_region": {
+        "left": 1600,
+        "top": 0,
+        "right": 1680,
+        "bottom": 1080
+      }
+    },
+    {
+      "index": 21,
+      "time_seconds": 21.0,
+      "rendered_brightness_proxy": 0.198698,
+      "color_class_proxy": "green",
+      "low_signal_share": 0.279884,
+      "unclassified_share": 0.279884,
+      "excluded_share": 0.0,
+      "source_pixel_region": {
+        "left": 1680,
+        "top": 0,
+        "right": 1760,
+        "bottom": 1080
+      }
+    },
+    {
+      "index": 22,
+      "time_seconds": 22.0,
+      "rendered_brightness_proxy": 0.19454,
+      "color_class_proxy": "green",
+      "low_signal_share": 0.316678,
+      "unclassified_share": 0.316678,
+      "excluded_share": 0.0,
+      "source_pixel_region": {
+        "left": 1760,
+        "top": 0,
+        "right": 1840,
+        "bottom": 1080
+      }
+    },
+    {
+      "index": 23,
+      "time_seconds": 23.0,
+      "rendered_brightness_proxy": 0.1762,
+      "color_class_proxy": "green",
+      "low_signal_share": 0.307882,
+      "unclassified_share": 0.307882,
+      "excluded_share": 0.0,
+      "source_pixel_region": {
+        "left": 1840,
+        "top": 0,
+        "right": 1920,
+        "bottom": 1080
+      }
+    }
+  ]
+}

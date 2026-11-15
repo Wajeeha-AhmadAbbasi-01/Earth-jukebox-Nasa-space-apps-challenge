@@ -1,0 +1,63 @@
+{
+  "manifest_schema_version": "phase3-lightning-status.v1",
+  "generated_at": "2026-11-14",
+  "dataset_id": "lightning-5011",
+  "status": "blocked_before_ingestion",
+  "official_collection": {
+    "short_name": "isslis_v3_fin",
+    "version": "3",
+    "cmr_concept_id": "C3838944284-GHRC_DAAC",
+    "doi": "10.5067/LIS/ISSLIS/DATA114",
+    "processing_level": "2",
+    "formats": [
+      "NETCDF-4",
+      "HDF-4"
+    ],
+    "representative_granules": [
+      {
+        "filename": "ISS_LIS_SC_V3.0_20170301_011617_FIN.nc",
+        "format": "NETCDF-4",
+        "size_mb": 1.91,
+        "metadata_status": "verified",
+        "science_bytes_status": "unavailable_without_authenticated_access"
+      },
+      {
+        "filename": "ISS_LIS_SC_V3.0_20170301_011617_FIN.hdf",
+        "format": "HDF-4",
+        "size_mb": 1.32,
+        "metadata_status": "verified",
+        "science_bytes_status": "not acquired"
+      }
+    ]
+  },
+  "source_verification_status": "metadata_verified_source_unverified",
+  "verified_source_fields": [
+    "latitude",
+    "longitude",
+    "detection time"
+  ],
+  "unverified_source_fields": [
+    "archive file schema",
+    "record kind (event/group/flash)",
+    "units",
+    "quality flags",
+    "missing-value encoding",
+    "aggregation rules",
+    "exact SVS source product/version"
+  ],
+  "implemented": [
+    "fail-closed normalized contract",
+    "explicit source schema verification gate",
+    "coordinate and timezone-aware timestamp validation",
+    "bounded record count",
+    "shared provenance envelope schema"
+  ],
+  "not_implemented": [
+    "NASA source adapter",
+    "scientific record ingestion",
+    "feature extraction",
+    "sonification",
+    "vertical slice completion"
+  ],
+  "blocker": "Official CMR identifies the V3 collection and representative granules, but protected data GET returned Earthdata login HTML and OPeNDAP schema access returned HTTP 401. No representative science file bytes were acquired, so exact schema and record semantics remain unverified."
+}

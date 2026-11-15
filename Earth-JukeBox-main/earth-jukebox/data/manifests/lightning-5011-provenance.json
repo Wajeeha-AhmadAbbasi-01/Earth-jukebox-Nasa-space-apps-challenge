@@ -1,0 +1,39 @@
+{
+  "schema_version": "provenance-manifest.v1",
+  "dataset_id": "lightning-5011",
+  "acquisition": {
+    "url": "https://svs.gsfc.nasa.gov/vis/a000000/a005000/a005011/iss_lightning_preview.jpg",
+    "local_path": "earth-jukebox/data/raw/lightning-5011/iss_lightning_preview.jpg",
+    "sha256": "34814a64183e515909f414051c17d30209ea1e30cd941c2e7c8f50ff1e884580",
+    "bytes": 266956,
+    "accessed_at": "2026-11-14",
+    "status": "acquired_and_checksum_verified"
+  },
+  "processing": {
+    "script": "earth-jukebox/scripts/extract_visual_proxy_features.py",
+    "output": "earth-jukebox/data/processed/lightning-5011/proxy-feature-timeline.json",
+    "feature_status": "image_derived_proxy_only",
+    "sonification_mapping": {
+      "mapping_id": "lightning-rendered-pixel",
+      "version": "v1",
+      "waveform": "triangle",
+      "frequency_min_hz": 220,
+      "frequency_max_hz": 700,
+      "gain_floor": 0.015,
+      "gain_brightness_span": 0.07,
+      "pan_by_display_color": {
+        "warm": 0.25,
+        "cool": -0.25,
+        "green": 0.1,
+        "magenta": -0.1
+      }
+    }
+  },
+  "attribution": "Official ISS LIS quality-controlled visualization. LIS does not continuously observe every location. Numerical schema, exact source lineage, event/group/flash semantics, units, and quality flags remain unverified.",
+  "limitations": [
+    "Features are derived from rendered preview pixels only.",
+    "Color classes are deterministic display-color proxies, not calibrated scientific values.",
+    "The playback position is a spatial scan of a still image, not source chronology.",
+    "No physical units, event counts, concentrations, current vectors, or calibrated temperatures are inferred."
+  ]
+}

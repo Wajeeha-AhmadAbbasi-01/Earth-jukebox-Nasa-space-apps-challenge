@@ -1,0 +1,11 @@
+{
+  "schema_version": "last-known-good.v1",
+  "dataset_id": "ocean-3912",
+  "status": "promoted",
+  "promoted_at": "2026-11-15T16:59:20.271199+00:00",
+  "timeline": "data\\processed\\ocean-3912\\proxy-feature-timeline.json",
+  "timeline_sha256": "f82c6006844368b21bc4640c1c438ee89b0415f41f02622850211e66a1867c63",
+  "source_sha256": "dcfd17864c2940f9ce1cf406e866818379991d57b0e900f9b8812f0c7cf72e3c",
+  "source_vs_proxy": "image_derived_proxy",
+  "temporal_claim": "none"
+}
